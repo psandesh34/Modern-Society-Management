@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+.style-error {
+    color: white;
+    background-color: rgba(88, 14, 14, 0.753);
+}
+
+.snackbar {
+    max-width: 30% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 1000px !important;
+    background-color: #6d0808;
+    color: #ffffff;
+}
+
+.snackbar-success {
+    max-width: 30% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 1000px !important;
+    background-color: #00ff00;
+    color: #000000;
+}
+
+html, body {
+    height: 100%;
+}
+
+.fill-space {
+    flex: 1 1 auto;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

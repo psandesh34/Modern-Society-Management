@@ -1,0 +1,19 @@
+GET http://localhost:3000/users
+//get list of users
+
+###
+//login user
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "contactEmail":"sandeshRRRRPatil@gmail.com",
+    "password":"pass"
+}
+
+###
+//logout user
+PATCH http://localhost:3000/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjFkMjJkNzEwNzE3NzFkNzRjNWRkYTAiLCJyb2xlIjoidXNlciIsImNvbnRhY3RFbWFpbCI6InNhbmRlc2hSUlJSUGF0aWxAZ21haWwuY29tIiwiaWF0IjoxNTk1NzY0NjUzLCJleHAiOjE1OTU3NjgyNTN9._GUsQ6KN_mEG3BnNEG3k2-akiD5ls5g2cnul2RurFKQ
+
+###
